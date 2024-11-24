@@ -1,0 +1,32 @@
+<!doctype html>
+<html>
+ <head>
+  <title>AP30023</title>
+  <link rel="stylesheet" type="text/css" href="../static/css/rm1style.css">
+ </head>
+ <body>
+  <header>
+   <p class="logo">Group06</p>
+   <ul>
+    <li><a href="/select">Previous</a></li>
+    <li><a href="/">Home</a></li>
+   </ul>
+  </header>
+<h2 id="main">BEDROOM</h2>
+   <ul>
+    <li class="re"><p>Temperature: {{t_deg}} deg Cal.</p></li>
+    <li class="re"><p>Humidity: {{rh_pRH}} %.</p></li>
+    <li class="re"><p>Light Intensity: {{al}} lux.</p></li>
+    <li class="re"><p>Formaldehyde: {{hcoh}} ppb.</p></li>
+   </ul>
+  <p class="heading">Historical Record</p>
+  <section>
+   <a href="/tphistory" class="image1"><img src="../static/pic/temp.jpeg" alt="temperature" style="width:100px;height:100px;"></a>
+   <a href="/rhhistory"><img src="../static/pic/humi.jpeg" alt="humidity" style="width:100px;height:100px;"></a>
+   <a href="/lihistory"><img src="../static/pic/lig.jpeg" alt="light intensity" style="width:100px;height:100px;"></a>
+   <a href="/ch2ohistory"><img src="../static/pic/ch2o.jpeg" alt="formaldehyde" style="width:100px;height:100px;"></a>
+  </section>
+ 
+
+ </body>
+</html>

@@ -1,0 +1,142 @@
+*
+{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Garamond, serif;
+}
+
+body
+{
+  min-height: 100vh;
+  background: linear-gradient(#ba9982,#ffffff);
+}
+
+header
+{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding: 50px 100px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  z-index:3;
+}
+
+header .logo
+{
+  color: #ffffff;
+  font-weight: 700;
+  text-decoration: none;
+  font-size: 2em;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+}
+
+header ul
+{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+header ul li
+{
+  list-style: none;
+  margin-left: 20px;
+}
+
+header ul li a
+{
+  text-decoration: none;
+  padding: 6px 15px;
+  color: #ffffff;
+  font-size: 1.5em;
+  border: 2px solid currentColor;
+  border-radius: 20px;
+}
+
+header ul li a:hover
+{
+  background: #ffffff;
+  color: #ba9982;
+}
+
+section
+{
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  padding: 300px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+h2
+{ 
+  color: #ffffff;
+  font-weight: 700;
+  text-decoration: none;
+  font-size: 8em;
+  text-transform: uppercase;
+  letter-spacing: 4px;
+  max-width: fit-content;
+  margin-inline: auto; 
+  position: relative;
+  top: 200px;
+}
+
+h3
+{ 
+  color: #ffffff;
+  font-weight: 700;
+  text-decoration: none;
+  font-size: 2.5em;
+  text-transform: uppercase;
+  letter-spacing: 4px;
+  max-width: fit-content;
+  margin-inline: auto; 
+  position: relative;
+  bottom: 650px;
+  right: 485px;
+}
+
+h4
+{ 
+  color: #ffffff;
+  font-weight: 700;
+  text-decoration: none;
+  font-size: 2.5em;
+  text-transform: uppercase;
+  letter-spacing: 4px;
+  max-width: fit-content;
+  margin-inline: auto; 
+  position: relative;
+  bottom: 693px;
+}
+
+h5
+{ 
+  color: #ffffff;
+  font-weight: 700;
+  text-decoration: none;
+  font-size: 2.5em;
+  text-transform: uppercase;
+  letter-spacing: 4px;
+  max-width: fit-content;
+  margin-inline: auto; 
+  position: relative;
+  bottom: 738px;
+  left: 500px;
+}
+
+
+section a img
+{
+  border-radius: 20px;
+  position: relative;
+  top: 150px;
+}
